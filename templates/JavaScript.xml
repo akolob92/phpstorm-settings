@@ -1,0 +1,17 @@
+<templateSet group="JavaScript">
+  <template name="!!console.log" value="console.log($END$)" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!JSON.stringify" value="!JSON.stringify($END$)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="!!Object.keys" value="Object.keys($END$)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
